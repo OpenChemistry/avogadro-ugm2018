@@ -1,2 +1,3 @@
-# avogadro-ugm2018
-Materials for the 2018 Avogadro Users Group Meeting
+# Avogadro 2018 Users Group Meeting
+
+![](AvogadroUGM.png)
