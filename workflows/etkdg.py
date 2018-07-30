@@ -35,14 +35,15 @@ def getOptions():
 
 def generate(opts):
     m = Chem.MolFromMolBlock(opts['sdf'])
-    AllChem.EmbedMolecule(m,AllChem.ETKDG())
+    m = Chem.AddHs(m)
+    AllChem.EmbedMolecule(m, AllChem.ETKDG())
 
     if opts['ff'] is 'UFF':
         AllChem.UFFOptimizeMolecule(m)
     elif opts['ff'] is 'MMFF94':
-        AllChem.MMFF94OptimizeMolecule(m)
+        AllChem.MMFFOptimizeMolecule(m)
 
-    return Chem.MolToMolBlock(m3)
+    return Chem.MolToMolBlock(m)
 
 
 def runWorkflow():
