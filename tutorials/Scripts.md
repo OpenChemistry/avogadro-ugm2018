@@ -163,8 +163,8 @@ This will result in a check box in the dynamically generated GUI, with the initi
 
 Some parameters are common to most calculation codes. If the following parameter names are found, they will be handled specially while creating the GUI. It is recommended to use the names below for these options to provide a consistent interface and ensure that MoleQueue job staging uses correct values where appropriate.
 
-| Option name | type | description |
- | :-------------—: | :-----—: | :---------------------------------------------------------------— |
+| Option name | Type | Description |
+| :--—: | :---—: | :-— |
 | "Title" | string | Input file title comment, MoleQueue job description. |
 | "Filename Base" | string | Input file base name, e.g. "job" in "job.inp". |
 | "Processor Cores" | integer | Number of cores to use. Will be passed to MoleQueue. |
