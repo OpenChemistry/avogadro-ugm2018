@@ -9,7 +9,7 @@
 |9:00-9:30|Geoffrey Hutchison, Pitt|	[Welcome, Intro & Community Feedback](https://github.com/OpenChemistry/avogadro-ugm2018/blob/master/talks/Hutchison-Overview.pdf)|
 |9:30-10:00|	Marcus Hanwell, Kitware|	[Avogadro 2, Open Chemistry](https://github.com/OpenChemistry/avogadro-ugm2018/blob/master/talks/Avogadro2-OpenChemistry.pdf) |
 ||Break		
-|10:20-10:40|	Patrick Avery, U. Buffalo|	Extended Hückel, Solids and Avogadro|
+|10:20-10:40|	Patrick Avery, U. Buffalo|	[Extended Hückel, Solids and Avogadro](https://github.com/OpenChemistry/avogadro-ugm2018/blob/master/talks/avogadroWithYaehmop.pdf)|
 |10:40-11:00|	John Keith, Pitt|	[Quantum chemistry modeling of local solvation effects](https://github.com/OpenChemistry/avogadro-ugm2018/blob/master/talks/Keith-SolvationEchem.pdf)|
 ||Coffee Break		
 |11:15-11:35|	Chris Wilmer, Pitt|	[Need for New Tools for Materials Discovery](https://github.com/OpenChemistry/avogadro-ugm2018/blob/master/talks/Wilmer-MaterialsCAD.pdf) |
