@@ -15,9 +15,9 @@
 |11:15-11:35|	Chris Wilmer, Pitt|	[Need for New Tools for Materials Discovery](https://github.com/OpenChemistry/avogadro-ugm2018/blob/master/talks/Wilmer-MaterialsCAD.pdf) |
 |11:35-11:55|	Gaurav Chopra, Purdue|	CANDIY & GUI-CANDIY|
 |12:00-12:30|	10-minute Lightning Talks
-|12:00-12:10| Jonathan Fine (Purdue - Chopra Group) - GUI-CANDIY  |
+|12:00-12:10| Jonathan Fine (Purdue - Chopra Group) | GUI-CANDIY  |
 |12:10-12:20| Kutay Sezginel, Pitt | [Computational Design of Artificial Molecular Machines](https://kbsezginel.github.io/presentations/avogadro-meeting-2018) |
-|12:20-12:30| Will Gladstone - Avogadro Plugin Ecosystem  |
+|12:20-12:30| Will Gladstone | Avogadro Plugin Ecosystem  |
 |12:30-2:00|	Lunch (On Your Own)	|
 |2:00-3:00|	Roundtable Discussion (Avogadro 2 Roadmap)	|
 |3:00-6:00|	Hackathon & Tutorials	|
