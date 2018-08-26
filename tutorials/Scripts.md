@@ -1,13 +1,13 @@
-Generators & Workflow Scripts
+Generators & Command Scripts
 =======
 
-Input Generators and Workflow scripts work similarly - passing JSON to Avogadro to render a form interface and then perform work. In principal, the scripts can be written in any programming language, although most are currently written in Python.
+Input Generators and Command scripts work similarly - passing JSON to Avogadro to render a form interface and then perform work. In principal, the scripts can be written in any programming language, although most are currently written in Python.
 
-This guide will cover the UI aspects of scripts, with separate discussion of generators and workflow operation elsewhere.
+This guide will cover the UI aspects of scripts, with separate discussion of generators and command operation elsewhere.
 
 ## Script Entry Points
 
-The script must handle the following command-line arguments:
+The script *must* handle the following command-line arguments:
 
 * `--debug` Enable extra debugging output. Used with other commands. It is not required that the script support extra debugging, but it should not crash when this option is passed.
 * `--lang XX` Display the user interface with a specific language or localization. It is not required that scripts support localization, but it should not crash when this option is passed.

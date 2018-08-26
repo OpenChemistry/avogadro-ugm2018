@@ -1,8 +1,8 @@
-Avogadro Workflow Examples
+Avogadro Python Command Examples
 ======
 
 Included are a variety of scripts showing various capabilities of the
-workflow functionality.
+command functionality.
 
 Some prompts/ideas:
 
