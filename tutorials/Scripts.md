@@ -138,7 +138,30 @@ This block will result in a QSpinBox, configured as follows:
 
 ### Floating-point values
 
-Scripts may request floating-point values from a specififed range by adding
+Scripts may request floating-point values from a specififed range by adding a user-option of the following form:
+
+```
+{
+  "userOptions": {
+    "Parameter Name": {
+      "type": "float",
+      "minimum": -5,
+      "maximum": 5,
+      "default": 0,
+      "precision": 3,
+      "prefix": "some text ",
+      "suffix": " units"
+    }
+  }
+}
+```
+
+This block will result in a QSpinBox, configured as follows:
+
+* minimum and maximum indicate the valid range of float for the parameter.
+* default is the float value that will be shown initially.
+* precision is the significant figures of the floating-point value
+* (optional) prefix and suffix are used to insert text before or after the float value in the spin box. This is handy for specifying units. Note that any prefix or suffix will be stripped out of the corresponding entry in the call to scripts, and just the raw float value will be sent.
 
 ### Boolean Parameters
 
@@ -164,7 +187,7 @@ This will result in a check box in the dynamically generated GUI, with the initi
 Some parameters are common to most calculation codes. If the following parameter names are found, they will be handled specially while creating the GUI. It is recommended to use the names below for these options to provide a consistent interface and ensure that MoleQueue job staging uses correct values where appropriate.
 
 | Option name | Type | Description |
-| :--—: | :---—: | :-— |
+| :---: | :----: | :-- |
 | "Title" | string | Input file title comment, MoleQueue job description. |
 | "Filename Base" | string | Input file base name, e.g. "job" in "job.inp". |
 | "Processor Cores" | integer | Number of cores to use. Will be passed to MoleQueue. |
